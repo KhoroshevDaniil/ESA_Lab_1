@@ -6,6 +6,7 @@
 
 В качестве предметной области была выбрана **научная конференция**, включающая в себя 2 объекта: участник (Participant) и научная статья (Paper)
 
+После деплоя .war архива приложения нужно перейти по ссылке: http://localhost:8080/ESA_Lab_1-1.0-SNAPSHOT/
 
 ## Data Layer ##
 В модуле [com.example.model](https://github.com/KhoroshevDaniil/ESA_Lab_1/tree/master/src/main/java/com/example/model) реализовано два Java Beans: [Participant](https://github.com/KhoroshevDaniil/ESA_Lab_1/blob/master/src/main/java/com/example/model/Participant.java) и [Paper](https://github.com/KhoroshevDaniil/ESA_Lab_1/blob/master/src/main/java/com/example/model/Paper.java).
@@ -39,3 +40,14 @@ UI реализован в следующих jsp страницах:
 - [papers.jsp](https://github.com/KhoroshevDaniil/ESA_Lab_1/blob/master/src/main/webapp/papers.jsp)
 - [participants.jsp](https://github.com/KhoroshevDaniil/ESA_Lab_1/blob/master/src/main/webapp/participants.jsp)
 
+### Стартовая страница приложения: ###
+
+![](images/start_page.jpg)
+
+### Страница для создания и отображения участников: ###
+
+![](images/participants_page.jpg)
+
+### Страница для создания и отображения статей: ###
+
+![](images/papers_page.jpg)
